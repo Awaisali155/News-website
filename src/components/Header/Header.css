@@ -1,0 +1,92 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(88, 88, 179);
+  height: 60px;
+  align-items: center;
+}
+.logo {
+  flex: 1;
+  margin-left: 114px;
+  color: red;
+  font-size: 30px;
+  font-weight: 300px;
+}
+.menu {
+  gap: 1rem;
+  display: flex;
+}
+
+.btngroup {
+  display: flex;
+  gap: 1rem;
+  margin-right: 22px;
+}
+.span {
+  color: rgb(245, 241, 241) !important;
+}
+.input {
+  border-radius: 29px;
+  border: none;
+  padding: 5px;
+}
+.font {
+  font-size: 30px;
+  color: white;
+}
+.input {
+  border-radius: 20px;
+  border: none;
+}
+.btn1 {
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 200px;
+  width: 80px;
+}
+.btn1:hover {
+  background-color: red;
+  color: aliceblue;
+}
+.btn2 {
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  width: 100px;
+  font-weight: 200px;
+}
+.btn2:hover {
+  background-color: red;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 61px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .menu {
+    margin-bottom: 20px;
+    margin-left: 59px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menu {
+    display: initial;
+  }
+  .btngroup {
+    margin-top: 25px;
+  }
+  .logo {
+    display: flex;
+  }
+}

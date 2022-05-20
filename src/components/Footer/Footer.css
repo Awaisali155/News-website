@@ -1,0 +1,17 @@
+.footer {
+  background-color: rgb(88, 88, 179);
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+}
+.iconGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.icons {
+  font-size: 50px;
+  color: white;
+}
